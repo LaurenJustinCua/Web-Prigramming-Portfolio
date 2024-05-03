@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauren Justin Cua - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #000000;
+        }
+        header {
+            background-color: #6388ce23;
+            color: #000000;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lauren Cua</h1>
+        <p>Welcome to my personal website</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey there! I'm Lauren Justin Cua, and I'm thrilled to have this opportunity to tell you a bit about myself. I'm a 1st year Creative Computing student.</p>
+        <p>Whether it's in the classroom, through extracurricular activities, or just by just exploring my surroundings, I think there's always potential for learning and growth. I'm curious by nature and love looking into new subjects, from science and technology to literature and the arts.</p>
+        <p>Aside from school, I love to skateboard. I like following my hobbies and using my creativity to express myself, whether it's via playing sports, doing art, or settling up with a great book. I also like to play video games, which keep me rounded and balanced.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <h4>Vending Machine</h4>
+        <img src="c:\Users\97154\Desktop\My Website\Vending Machine.png"
+        height="400" width="400">
+        <img src="">
+        <p>This are the examples of my Projects i made this past few months.</p>
+        <p>And this are the Links for or project on Github.</p>
+        <h2>1.</h2>
+        <a href="https://github.com/LaurenJustinCua/Assessment-1-WEB-DEV" target=_blank title="This take you to my Github">
+            Github-1
+        </a>
+        <h2>2.</h2>
+        <a href="https://github.com/LaurenJustinCua/Programming-Skills-Portfolio" target=_blank title="This take you to my Github-2">
+            Github-2
+        </a>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me!</p>
+        <p>You can use the form below or contact me directly via email or social media.</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        &copy; 2024 Lauren Cua
+    </footer>
+</body>
+</html>
